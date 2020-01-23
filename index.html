@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Poha Stack</title>
+    <link href="CSS/style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Flamenco&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+   <header>
+      <nav>
+         <div class="row clearfix">
+            <img src="Images/logo.png" alt= "poha" class="logo">
+            <ul class="main-nav animated slideInDown" id ="demo">
+               <li><a href="#">POHA DELIVERY</a></li>
+               <li><a href="#">HOW TO ORDER</a></li>
+               <li><a href="#">CHECK MORE</a></li>
+               <li><a href="sign.html">LOG IN</a></li>
+                
+            </ul>
+             <a href="#" class="mobile-icone" onclick="slideshow()"><i class="fa fa-bars"></i></a>
+         </div>
+          
+      </nav>
+      <div class="Main-content-header">
+       <h1>WELCOME TO <span class=colorchange>POHA STACK</span><br>
+          HOUSE OF POHA LOVERS OO YES..! </h1>
+          <a href="#" class="btn btn-full">Click to order</a>
+          <a href="#" class="btn btn-full">Show More</a>
+          </div>
+   </header>
+   <script>
+       
+       function slideshow(){
+           var x = document.getElementById("demo");
+           if (x.style.display === "none"){
+               x.style.display = "block";
+           }
+            else{x.style.display="none"}
+           
+       }
+       
+    </script>
+</body>
+</html>
